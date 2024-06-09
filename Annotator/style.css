@@ -1,0 +1,50 @@
+
+.active {
+  border: 4px dashed black;
+}
+.main{
+  height: 25px;
+  width: 10vw;
+  display: flex;
+  background-color: #000000;
+  border-radius: 0.5vw;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 0.5vw ;
+}
+.main2{
+  height: 3vw;
+  width: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  padding: 0.1vw 0;
+}
+.hover-option-button{
+  height: 1vw;
+  width: 1vw;
+  border-radius: 50%;
+  background-color: black;
+}
+.hover-option-button:hover{
+  transform: scale(1.2);
+} 
+
+
+.hover-option-button-hover:hover{
+  transform: scale(1.2);
+}
+
+.hover-textarea {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+
+
